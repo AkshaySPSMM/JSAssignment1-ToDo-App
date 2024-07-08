@@ -71,6 +71,11 @@ function saveTask() {
     const deadline = document.getElementById('taskDeadline').value;
 
     if (title && description && deadline) {
+        if (tasks.some((task, index) => task.title === title && index !== currentEditIndex)) {
+            const taskalertmsg=`The task: ${title} already exists!`;
+            alert(taskalertmsg);
+            return false;
+        }
         const newTask = {
             title: title,
             description: description,
