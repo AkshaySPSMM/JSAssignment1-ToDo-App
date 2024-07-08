@@ -105,7 +105,7 @@ main {
 }
 
 #completedcheck {
-    background-color: chartreuse;
+    background-color: rgb(228, 40, 47);
     padding: 0.5rem;
     border-radius: 2rem;
     display: flex;
@@ -139,10 +139,7 @@ main {
     background-color: black;
     color: chartreuse;
 }
-#completedcheck
-{
-    background-color: rgb(228, 40, 47);
-}
+
 #completedcheck:hover
 {
     color:  rgb(228, 40, 47);

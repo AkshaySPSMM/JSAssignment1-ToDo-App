@@ -4,7 +4,6 @@ const searchInput = document.getElementById('search');
 const taskboxes = document.querySelector('.taskboxes');
 const taskaddbutton = document.getElementById('taskaddbutton');
 const completedcheck = document.getElementById('completedcheck');
-
 const taskModal = document.getElementById('taskModal');
 const closeBtn = document.querySelector('.close-btn');
 const saveTaskBtn = document.getElementById('saveTaskBtn');
