@@ -50,7 +50,6 @@ function rendertasks() {
                 </div>`;
             taskboxes.appendChild(taskDiv);
         });
-        taskboxes.style.height = '50%'; 
     }
 }
 
