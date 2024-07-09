@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <link rel="stylesheet" type="text/css" href="todo.css">
+</head>
+<body>
+    <header>
+        <div class="icon">To<span id="iconspan">Do</span> App</div>
+        <div class="searchbox">
+            <input type="text" name="search" id="search">
+            <div class="searchicon"><img src="Assets/search-svgrepo-com.png"></div>
+        </div>
+    </header>
+    <main>
+        <div class="taskboxes">
+        </div>
+        <div class="mainbuttons">
+            <div class="taskscompleted"><button id="completedcheck">Tasks Completed</button></div>
+            <div class="addtask"><button id="taskaddbutton">+</button></div>
+        </div>
+        <div id="taskModal" class="modal">
+            <div class="modal-content">
+                <span class="close-btn">&times;</span>
+                <h2>Task Details</h2>
+                <label for="taskTitle">Title:</label>
+                <input type="text" id="taskTitle">
+                <label for="taskDescription">Description:</label>
+                <textarea id="taskDescription"></textarea>  
+                <label for="taskDeadline">Deadline (DD-MM-YYYY):</label>
+                <input type="text" id="taskDeadline">
+                <button id="saveTaskBtn">Save</button>
+            </div>
+        </div>
+    </main>
+    <footer>@Copyright</footer>
+    
+    <script src="todo.js"></script>
+</body>
+</html>
